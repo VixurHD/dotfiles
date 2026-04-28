@@ -1,1 +1,1 @@
-# Created by newuser for 5.9
+alias cfg='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
