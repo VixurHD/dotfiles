@@ -18,3 +18,7 @@ export PATH="$PATH:/home/$USER/.local/bin:$HOME/.cargo/bin"
 PS1='[\u@\h \W]\$ '
 
 #eval "$(direnv hook bash)"
+alias shot='scrot -s /tmp/shot.png && xclip -selection clipboard -t image/png -i /tmp/shot.png && rm /tmp/shot.png'
+alias sudo="doas"
+
+alias dgnd='dragon-drop -a -x'
